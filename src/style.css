@@ -86,7 +86,7 @@ body, html {
       text-align: center;
       font-family: 'Roboto', sans-serif;
       color: #0b2415;
-      text-shadow: 1px 0px 5px #000;
+      text-shadow: 1px 0px 2px #0b2515;
   }
 
   /* This is the style for the flip cards  */
@@ -129,13 +129,33 @@ body, html {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #0b2415;
-    text-shadow: 1px 0px 5px #000;
+    text-shadow: 1px 0px 2px #0b2515;
+  }
+  .photography{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
-  hr.rounded {
-    border-top: 5px solid #0b2415 !important;
-    border-radius: 2px;
+  .photography h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #0b2515;
+    text-shadow: 1px 0px 2px #0b2515;
   }
+  .in-need{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #0b2515;
+    text-shadow: 1px 0px 2px #0b2515;
+  }
+
+  .in-need h4 :hover{
+    text-decoration: underline;
+  }
+
+
   
 
 
@@ -148,7 +168,7 @@ body, html {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
-    font-size: 40px;
+    font-size: 20px;
     top: 15px;
     right: 35px;
     }
