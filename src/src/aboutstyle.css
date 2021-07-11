@@ -50,6 +50,10 @@
     text-shadow: 1px 0px 2px #0b2515;
   }
 
+  .myEdit h5{
+    padding-block: 20px;
+  }
+
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
