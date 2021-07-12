@@ -57,15 +57,17 @@ function updateMessage(key, value){
 }
 function sendEmail(){
     Email.send({
-        Host: "smtp.gmail.com",
-        Username:"zaakiraha34@gmail.com",
-        Password:"ytmtnsdhtzetiaro",
-        To: 'zaakiraha34@gmail.com',
-        From: `Email: ${a["data[email]"]}`,
-        Subject: "New Email",
-        Body: `Name: ${a["data[name]"]} <br> ${a["data[message]"]}`
-    });
-}
+    Host : "smtp.gmail.com",
+    Username : "zaakirah.abrams@younglings.africa",
+    Password : "Password1",
+    To : 'zaakiraha34@gmail.com',
+    From : `Email: ${a["data[Email]"]}`,
+    Subject : "Hi you've got some new mail",
+    Body : `Name: ${a["data[Name]"]} <br> ${a["data[Message]"]}`
+}).then(
+message => alert("Please wait while i get back to you")
+);
+    }
 
 firebase.initializeApp({
     // Your firebase configuration object
