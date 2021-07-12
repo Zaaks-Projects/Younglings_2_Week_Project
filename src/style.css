@@ -9,7 +9,7 @@ body, html {
 /* this is the cover of the website */
   .herobg {
     /* The image used */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)),  url('/images/Untitled-1.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)),  url('/public/images/Untitled-1.png');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -28,13 +28,13 @@ body, html {
   }
 
   .hero-text h1{
-      font-size: 64px;
+      font-size: 60px;
       text-shadow: 1px 1px 10px #000;
       font-family: 'Roboto', sans-serif;
   }
 
   .hero-text h3{
-      font-size: 65px;
+      font-size: 60px;
       text-shadow: 1px 1px 10px #000;
       font-family: 'Roboto', sans-serif;
   }
@@ -127,6 +127,7 @@ body, html {
 
   .skills{
     margin-top: 20px;
+    padding-bottom: 20px;
   }
 
   .skills h1{
@@ -134,10 +135,10 @@ body, html {
     font-family: 'Roboto', sans-serif;
     color: #0b2415;
     text-shadow: 1px 0px 2px #0b2515;
+    padding-bottom: 30px;
   }
   .photography{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   
   .photography h1{
@@ -159,9 +160,19 @@ body, html {
     text-decoration: underline;
   }
 
-
+  .sBackground{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+  }
   
+  .pButton :hover{
 
+    font-weight: bolder !important;
+    text-decoration: underline;
+  }
+
+  work-show{
+    padding-block: 10px;
+  }
 
 
 
@@ -175,6 +186,10 @@ body, html {
     font-size: 20px;
     top: 0px;
     right: 35px;
+    }
+
+    .hero-h1{
+      font-size: 34px;
     }
 
     

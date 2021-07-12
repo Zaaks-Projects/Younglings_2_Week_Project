@@ -2,7 +2,7 @@
 
 
 body,html{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('/images/Untitled-1.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('/public/images/Untitled-1.png');
     height: 100%;
     margin: 0;
 }
@@ -103,6 +103,11 @@ body,html{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+  }
+
+  .myEdits h1{
+    font-weight: bold;
+    text-shadow: 1px 0px 2px #0b2515;;
   }
   
   @media screen and (max-width: 800px) {
